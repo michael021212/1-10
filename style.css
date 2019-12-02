@@ -190,6 +190,8 @@ footer {
  color: #fff;
 }
 
+
+
 @media screen and (max-width: 425px) {
 header {
 	width: 100%;
@@ -212,9 +214,43 @@ main {
 .blog {
 	width: 100%;
 	margin: 0;
+	padding-left: 10px;
 }
 .blog-image {
-	width: 50%;
+	width: 48%;
+}
+.sidebar {
+	width: 100%;
+}
+.pagination {
+	padding-bottom: 50px;
+}
+.sidebar {
+	width: 100%;
+	padding-left: 5px;
+	padding-right: 10px;
+}
+.instagram-box {
+	width: 48%;
+	/*padding-top: 48%;*/
+	height: 190px;
+}
+.instagram-box:nth-child(odd) {
+	/*margin-right: 4%;*/
+}
+.pagination {
+	/*margin-bottom: 50px;*/
+}
+.blog-text {
+	width: 48%;
+	padding-top: 5px;
+}
+.blog-text-headline {
+	/*width: 30%;*/
+	/*margin-right: 0;*/
+}
+footer {
+	padding-right: 10px;
 }
 }
 
